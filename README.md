@@ -1,6 +1,7 @@
 # Diabetes Prediction Model Deployment on Azure
 
 This repository contains code to deploy a diabetes prediction model on **Azure Machine Learning (Azure ML)** using a Flask-based REST API. It includes instructions for setting up the Azure environment, required libraries, and deployment configurations.
+![Screenshot of azure monitoring](https://i.imgur.com/eCgkwBY.jpeg)
 
 ## **Prerequisites**
 Before running the code, ensure the following prerequisites are met:
