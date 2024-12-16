@@ -88,22 +88,7 @@ The provided Python code performs the following steps:
 - Place your trained model file (`diabetes_model.pkl`) in the root directory.
 
 ### Entry Script (`score.py`):
-- Create a `score.py` file that includes the scoring logic for your model. An example structure:
-  ```python
-  import joblib
-  import numpy as np
-  from azureml.core.model import Model
-
-  def init():
-      global model
-      model_path = Model.get_model_path('diabetes_prediction_model')
-      model = joblib.load(model_path)
-
-  def run(raw_data):
-      data = np.array(json.loads(raw_data)['data'])
-      result = model.predict(data)
-      return result.tolist()
-  ```
+- A `score.py` file that includes the scoring logic for your model is created on the root directory.
 
 ### Required Azure Services:
 - **Azure Container Instances (ACI):**
