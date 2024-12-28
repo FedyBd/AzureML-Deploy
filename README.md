@@ -103,12 +103,7 @@ The provided Python code performs the following steps:
    cd <repository_folder>
    ```
 
-2. Create a virtual environment and install dependencies:
-   ```bash
-   python -m venv .venv
-   source .venv/bin/activate  # On Windows: .venv\Scripts\activate
-   pip install -r requirements.txt
-   ```
+2. Create a virtual environment and install dependencies.
 
 3. Place your `config.json` file in the root folder.
 
